@@ -7,8 +7,8 @@ variable "name" {
 variable "region" {
   description = "region"
   type        = string
-  # DZ: changing default to us-west-1 to point to region with available resources
-  default     = "us-west-1"
+  # DZ: changing default to us-east-1 to point to region with available resources including Prometheus workspace
+  default     = "us-east-1"
 }
 
 variable "eks_cluster_version" {
